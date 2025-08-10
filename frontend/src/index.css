@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  font-family: 'Lato', sans-serif;
+  background-color: #190008;
+  color: #000000;
+}
+
+.gradient-circle {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 760px;
+  height: 722px;
+  background: radial-gradient(circle, #2D010E, #93032E);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.3;
+  filter: blur(1000px);
+}
